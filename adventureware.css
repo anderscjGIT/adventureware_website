@@ -1,0 +1,83 @@
+
+
+body { margin: 0; }
+
+header{ background-image: url("http://images2.onionstatic.com/clickhole/1879/4/original/800.jpg");
+        background-repeat: repeat;
+        width: 100%; 
+        height: 5rem;
+        padding: 1rem;
+        border: 1rem;
+        margin: 0;}
+
+h1 { color: white; 
+	font-size: 2rem; 
+    font-family: 'Spectral SC', serif;
+	text-align: center;
+	margin-top: 15px;}   
+
+nav { width: 100%; 
+	height: 2rem; 
+	background-color: black;
+	padding: 1rem;
+	margin: 0; 
+
+	 }
+
+li  { list-style-type: none; 
+
+	}
+
+a { font-family: 'Spectral SC', serif;
+    font-size: 1rem;
+	color: white; 
+	float: left; 
+	text-decoration: none;
+	padding: 0 5px;
+	
+
+  }     
+
+a:hover { color: silver; }
+
+section { width: 100%; }
+
+ /*.first_div_box { width: 100%;
+          height: 350px;
+          box-sizing: border-box} */
+
+ .third_row, .second_row, .first_row { 
+ 	  background-color: white;
+	  box-sizing: border-box; 
+      width: 250px; 
+      height: 450px;
+      padding: 0.5rem;
+      border: .25rem;
+      margin: 5px; 
+      float: left;
+      overflow: hidden;
+     }
+
+
+img { margin-left: 40px; }
+
+p {text-align: center;}
+
+#compare_box { width: 5rem;
+               height: 2rem;
+               border: 1px solid black;
+               background-color: white;
+               margin-left: 70px;
+               color: black; }
+
+#compare_box:hover { background-color:lightgray; }
+
+ .colored_boxes li:nth-of-type(1){ width:20px;height:20px;border-radius:50%; background-color:black; float:left; margin: 0 3px;}               
+ .colored_boxes li:nth-of-type(2){ width:20px;height:20px;border-radius:50%; background-color:blue; float:left;margin: 0 3px; }               
+ .colored_boxes li:nth-of-type(3){ width:20px;height:20px;border-radius:50%; background-color:gray; float:left; margin: 0 3px;}               
+ .colored_boxes li:nth-of-type(4){ width:20px;height:20px;border-radius:50%; background-color:green; float:left; margin: 0 3px;}               
+ .colored_boxes li:nth-of-type(5){ width:20px;height:20px;border-radius:50%; background-color:yellow; float:left; margin: 0 3px;}               
+ .colored_boxes li:nth-of-type(6){ width:20px;height:20px;border-radius:50%; background-color:red; float:left; margin: 0 3px; }               
+
+
+
